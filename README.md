@@ -18,7 +18,9 @@ Este proyecto forma parte de un reto DevOps, y su objetivo es contenerizar una a
 1. Instala las dependencias:
 
 ```bash
-npm install
+npm install 
+
+--- 
 
 ### 👉 Comandos para probar localmente
 

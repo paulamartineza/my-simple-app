@@ -11,18 +11,18 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 📥 Clonar repositorio
+      - name: Clonar repositorio
         uses: actions/checkout@v3
 
-      - name: 🐢 Configurar Node.js
+      - name: Configurar Node.js
         uses: actions/setup-node@v3
         with:
           node-version: '18'
 
-      - name: 📦 Instalar dependencias
+      - name: Instalar dependencias
         run: npm install
 
-      - name: ✅ (Opcional) Ejecutar linter
+      - name: (Opcional) Ejecutar linter
         run: echo "Aquí podrías correr 'npx eslint .' si tienes ESLint configurado"
 
       - name: 🐳 Login en Docker Hub
