@@ -3,7 +3,7 @@ const app = express();
 const port = 3000;
 
 app.get('/', (req, res) => {
-  res.send('¡Hola mundo DevOps!');
+  res.send('¡Hola mundo, bienvenidos a mi Node.js de prueba!');
 });
 
 app.get('/inicio', (req, res) => {
