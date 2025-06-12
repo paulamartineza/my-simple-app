@@ -1,4 +1,3 @@
-# Imagen base oficial de Node.js
 FROM node:18-alpine
 
 # Crear directorio de trabajo en el contenedor
