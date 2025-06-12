@@ -17,3 +17,5 @@ Este es un proyecto básico en Node.js con Express que expone 3 rutas HTTP. El o
 
 ```bash
 npm install
+
+Última actualización: 12 de junio de 2025.
