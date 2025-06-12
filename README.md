@@ -19,6 +19,8 @@ Este proyecto forma parte de un reto DevOps, y su objetivo es contenerizar una a
 
 ```bash
 npm install
+---
+
 
 ### 👉 Comandos para probar localmente
 
